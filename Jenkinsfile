@@ -16,11 +16,11 @@ node () {
  				bat "mvn clean install package " 
 			} 
  		}		// Shell build step
-sh """ 
-#!/bin/bash
+// sh """ 
+// #!/bin/bash
 
-echo "hello, today is $(date)" 
- """ 
+// echo "hello, today is $(date)" 
+//  """ 
 	}
 }
 }
